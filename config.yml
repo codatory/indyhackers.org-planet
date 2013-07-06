@@ -1,0 +1,7 @@
+feeds:
+  - http://mileszs.com/atom.xml
+  - http://blog.codatory.com/posts.rss
+
+title: 'IndyHackers Planet'
+about: 'Aggregating the IndyHackers Community'
+root_url: 'http://planet.indyhackers.org'
