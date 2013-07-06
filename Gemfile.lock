@@ -24,6 +24,9 @@ GEM
     multi_json (1.7.7)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    oj (2.1.4)
+    rabl (0.8.6)
+      activesupport (>= 2.3.14)
     rack (1.5.2)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -47,5 +50,7 @@ DEPENDENCIES
   builder
   feedzirra
   home_run
+  oj
+  rabl
   rack-cache
   sinatra

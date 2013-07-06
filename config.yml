@@ -4,4 +4,4 @@ feeds:
 
 title: 'IndyHackers Planet'
 about: 'Aggregating the IndyHackers Community'
-root_url: 'http://planet.indyhackers.org'
+root_url: 'http://indyhackers-planet.herokuapp.com'
