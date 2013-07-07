@@ -4,6 +4,13 @@ require 'yaml'
 require 'feedzirra'
 require 'builder'
 require 'rabl'
+require 'raven'
+
+Raven.configure do |config|
+  config.dsn = ENV['SENTRY_DSN']
+end
+
+use Raven::Rack
 
 CONFIG = YAML.load_file('config.yml')
 FEEDS  = Feedzirra::Feed.fetch_and_parse(CONFIG['feeds'])
