@@ -10,3 +10,4 @@ gem 'rabl'
 gem 'oj'
 gem 'rack-cache'
 gem 'feedbag', require: false
+gem 'sentry-raven'
