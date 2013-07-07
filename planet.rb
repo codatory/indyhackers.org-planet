@@ -34,7 +34,7 @@ def post_array
 end
 
 get '/', :provides => 'html' do
-  erb :index
+  redirect 'https://github.com/codatory/indyhackers.org-planet'
 end
 
 get '/posts.rss' do
