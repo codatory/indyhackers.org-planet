@@ -8,6 +8,7 @@ require 'raven'
 
 Raven.configure do |config|
   config.dsn = ENV['SENTRY_DSN']
+  config.excluded_exceptions = ['Sinatra::NotFound']
 end
 
 use Raven::Rack
