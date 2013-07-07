@@ -9,3 +9,4 @@ gem 'builder'
 gem 'rabl'
 gem 'oj'
 gem 'rack-cache'
+gem 'feedbag', require: false

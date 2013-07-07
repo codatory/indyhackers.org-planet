@@ -1,11 +1,11 @@
+---
 feeds:
-  - http://mileszs.com/atom.xml
-  - http://blog.codatory.com/posts.rss
-  - http://arktronic.com/rss.xml
-  - http://mdswanson.com/atom.xml
-  - http://todd.grotenhuis.info/atom.xml
-  - http://blog.chrisvannoy.com/feed/
-
-title: 'IndyHackers Planet'
-about: 'Aggregating the IndyHackers Community'
-root_url: 'http://indyhackers-planet.herokuapp.com/'
+- http://arktronic.com/rss.xml
+- http://blog.chrisvannoy.com/feed/
+- http://blog.codatory.com/posts.rss
+- http://mdswanson.com/atom.xml
+- http://mileszs.com/atom.xml
+- http://todd.grotenhuis.info/atom.xml
+title: IndyHackers Planet
+about: Aggregating the IndyHackers Community
+root_url: http://indyhackers-planet.herokuapp.com/

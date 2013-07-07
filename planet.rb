@@ -5,7 +5,7 @@ require 'feedzirra'
 require 'builder'
 require 'rabl'
 
-CONFIG = YAML.load(File.new('config.yml'))
+CONFIG = YAML.load_file('config.yml')
 FEEDS  = Feedzirra::Feed.fetch_and_parse(CONFIG['feeds'])
 
 use Rack::Cache,
