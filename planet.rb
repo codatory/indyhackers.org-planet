@@ -45,10 +45,14 @@ class Feeds
     fetch! if stale?
   end
 
+  def self.entries
+    @feeds.values.select{|i| i.is_a?(Feedzirra::Parser::RSS)}.map(&:entries)
+  end
+
   def self.to_a
     if @array_cache.nil? || stale?
       update
-      @array_cache = @feeds.values.map(&:entries).flatten.sort_by(&:published).reverse
+      @array_cache = entries.sort_by(&:published).reverse
     end
     @array_cache
   end
