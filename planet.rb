@@ -29,9 +29,35 @@ Rabl.configure do |config|
   config.include_child_root = true
 end
 
-def post_array
-  Feedzirra::Feed.update(FEEDS.values)
-  FEEDS.values.map(&:entries).flatten.sort_by(&:published).reverse
+class Feeds
+  include Singleton
+
+  def self.fetch!
+    @feeds = Feedzirra::Feed.fetch_and_parse(CONFIG['feeds'])
+    @updated_at = Time.now
+  end
+
+  def self.update!
+    return fetch! unless @feeds.present?
+    @feeds = Feedzirra::Feed.update(@feeds.values)
+    @updated_at = Time.now
+  end
+
+  def self.stale?
+    @updated_at.nil? || (@updated_at - Time.now) > 15*60 #15 minutes ago
+  end
+
+  def self.update
+    update! if stale?
+  end
+
+  def self.to_a
+    if @array_cache.nil? || stale?
+      update
+      @array_cache = @feeds.values.map(&:entries).flatten.sort_by(&:published).reverse
+    end
+    @array_cache
+  end
 end
 
 get '/', :provides => 'html' do
@@ -40,12 +66,12 @@ end
 
 get '/posts.rss' do
   cache_control :public, :max_age => 3600
-  @posts = post_array
+  @posts = Feeds.to_a
   builder :feed
 end
 
 get '/posts.json' do
   cache_control :public, :max_age => 3600
-  @posts = post_array
+  @posts = Feeds.to_a
   rabl :feed, :format => 'json', :content_type => 'application/json'
 end
