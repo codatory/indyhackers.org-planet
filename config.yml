@@ -16,6 +16,7 @@ feeds:
 - http://softwaresaltmines.com/feed/
 - http://todd.grotenhuis.info/atom.xml
 - http://verticalaligncenter.com/blog?format=rss
+- http://jacob.jkrall.net/rss.xml
 title: IndyHackers Planet
 about: Aggregating the IndyHackers Community
 root_url: http://indyhackers-planet.herokuapp.com/
