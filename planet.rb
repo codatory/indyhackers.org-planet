@@ -37,18 +37,12 @@ class Feeds
     @updated_at = Time.now
   end
 
-  def self.update!
-    return fetch! unless @feeds.present?
-    @feeds = Feedzirra::Feed.update(@feeds.values)
-    @updated_at = Time.now
-  end
-
   def self.stale?
     @updated_at.nil? || (@updated_at - Time.now) > 15*60 #15 minutes ago
   end
 
   def self.update
-    update! if stale?
+    fetch! if stale?
   end
 
   def self.to_a
