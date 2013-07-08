@@ -46,7 +46,7 @@ class Feeds
   end
 
   def self.entries
-    @feeds.values.select{|i| i.is_a?(Feedzirra::Parser::RSS)}.map(&:entries)
+    @feeds.values.select{|i| i.is_a?(Feedzirra::Parser::RSS)}.map(&:entries).flatten
   end
 
   def self.to_a
