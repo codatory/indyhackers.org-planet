@@ -6,20 +6,21 @@ require 'builder'
 require 'rabl'
 require 'raven'
 
-Raven.configure do |config|
-  config.dsn = ENV['SENTRY_DSN']
-  config.excluded_exceptions = ['Sinatra::NotFound']
+configure :production do
+  Raven.configure do |config|
+    config.dsn = ENV['SENTRY_DSN']
+    config.excluded_exceptions = ['Sinatra::NotFound']
+  end
+
+  use Raven::Rack
+
+  use Rack::Cache,
+    :metastore => 'file:tmp/cache/meta',
+    :entitystore => 'file:tmp/cache/entity',
+    :verbose => true
 end
 
-use Raven::Rack
-
 CONFIG = YAML.load_file('config.yml')
-FEEDS  = Feedzirra::Feed.fetch_and_parse(CONFIG['feeds'])
-
-use Rack::Cache,
-  :metastore => 'file:tmp/cache/meta',
-  :entitystore => 'file:tmp/cache/entity',
-  :verbose => true
 
 Rabl.configure do |config|
   config.escape_all_output = true
