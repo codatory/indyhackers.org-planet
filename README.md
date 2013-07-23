@@ -6,7 +6,14 @@ This is a simple RSS Aggregator for the IndyHackers.org community. It collects f
 
 # How do I get on?
 
-Fork the repo and add yourself to the feeds section of config.yml or open an issue. I'll verify your feed is valid enough to be included and redeploy the app.
+You can either open an issue with your web or feed address, or fork the repo and run
+the add_user.rb file. The syntax is as follows:
+
+```shell
+bundle && ruby add_user.rb http://mydomain.com
+```
+
+This will verify your feed works and add your domain to the config.yml file.
 
 # Where does it live?
 
