@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/codatory/indyhackers.org-planet/status.png)](https://drone.io/github.com/codatory/indyhackers.org-planet/latest)
+
 # What is this?
 
 This is a simple RSS Aggregator for the IndyHackers.org community. It collects feeds from all over the blogosphere and puts them in one simple to collect place.
