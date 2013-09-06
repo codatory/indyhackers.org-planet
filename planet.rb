@@ -5,6 +5,7 @@ require 'feedzirra'
 require 'builder'
 require 'rabl'
 require 'raven'
+require 'sinatra/cross_origin'
 
 configure :production do
   Raven.configure do |config|
@@ -70,6 +71,7 @@ end
 
 get '/posts.json' do
   cache_control :public, :max_age => 3600
+  cross_origin
   @posts = Feeds.to_a
   rabl :feed, :format => 'json', :content_type => 'application/json'
 end

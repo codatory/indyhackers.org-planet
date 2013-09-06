@@ -11,3 +11,4 @@ gem 'oj'
 gem 'rack-cache'
 gem 'feedbag', require: false
 gem 'sentry-raven'
+gem 'sinatra-cross_origin'
