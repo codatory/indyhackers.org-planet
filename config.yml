@@ -1,18 +1,31 @@
 ---
 feeds:
+- http://feeds.feedburner.com/aaronbushnell
 - http://arktronic.com/rss.xml
 - http://blog.chrisvannoy.com/feed/
 - http://blog.codatory.com/posts.rss
 - http://blog.funnelfiasco.com/?feed=rss2
 - http://blog.theincredibleholk.org/atom.xml
+- http://blog.sephonic.us/rss
 - http://composition.al/atom.xml
 - http://courtnycotten.com/feed/
 - http://davefancher.com/feed/
 - http://dwradcliffe.com/atom.xml
 - http://evanwalsh.net/log?format=rss
+- http://feeds.feedburner.com/codebtbytescom
+- http://feeds.feedburner.com/funkablog-atom
+- http://feeds.feedburner.com/roadfiresoftware
 - http://jacob.jkrall.net/rss.xml
+- http://joeldart.wordpress.com/feed/
+- http://jon-nolen.blogspot.com/feeds/posts/default
+- http://larryprice.github.com/atom.xml
+- http://mafellows.com/rss
+- http://massive-robot.blogspot.com/feeds/posts/default
 - http://mdswanson.com/atom.xml
+- http://mike-rogers.github.com/atom.xml
+- http://milamsoft.blogspot.com
 - http://mileszs.com/atom.xml
+- http://myotherpants.com/category/worksafe/feed/
 - http://pickardayune.com/atom.xml
 - http://softwaresaltmines.com/feed/
 - http://todd.grotenhuis.info/atom.xml
