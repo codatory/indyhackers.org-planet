@@ -1,17 +1,17 @@
 ---
 feeds:
-- http://feeds.feedburner.com/aaronbushnell
 - http://arktronic.com/rss.xml
-- http://blog.chrisvannoy.com/feed/
+- http://blog.chrisvannoy.com/rss/
 - http://blog.codatory.com/posts.rss
 - http://blog.funnelfiasco.com/?feed=rss2
-- http://blog.theincredibleholk.org/atom.xml
 - http://blog.sephonic.us/rss
+- http://blog.theincredibleholk.org/atom.xml
 - http://composition.al/atom.xml
 - http://courtnycotten.com/feed/
 - http://davefancher.com/feed/
 - http://dwradcliffe.com/atom.xml
 - http://evanwalsh.net/log?format=rss
+- http://feeds.feedburner.com/aaronbushnell
 - http://feeds.feedburner.com/codebtbytescom
 - http://feeds.feedburner.com/funkablog-atom
 - http://feeds.feedburner.com/roadfiresoftware
