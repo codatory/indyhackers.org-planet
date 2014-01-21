@@ -9,6 +9,7 @@ feeds:
 - http://composition.al/atom.xml
 - http://courtnycotten.com/feed/
 - http://davefancher.com/feed/
+- http://davydotcom.com/blog.rss
 - http://dwradcliffe.com/atom.xml
 - http://evanwalsh.net/log?format=rss
 - http://feeds.feedburner.com/aaronbushnell
@@ -30,7 +31,6 @@ feeds:
 - http://softwaresaltmines.com/feed/
 - http://todd.grotenhuis.info/atom.xml
 - http://verticalaligncenter.com/blog?format=rss
-- http://www.redwindsw.com/blog.rss
 title: IndyHackers Planet
 about: Aggregating the IndyHackers Community
 root_url: http://indyhackers-planet.herokuapp.com/
