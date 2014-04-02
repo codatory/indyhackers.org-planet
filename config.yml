@@ -2,7 +2,7 @@
 feeds:
 - http://arktronic.com/rss.xml
 - http://blog.chrisvannoy.com/rss/
-- http://blog.codatory.com/posts.rss
+- https://codatory.com/rss/
 - http://blog.funnelfiasco.com/?feed=rss2
 - http://blog.sephonic.us/rss
 - http://blog.theincredibleholk.org/atom.xml
