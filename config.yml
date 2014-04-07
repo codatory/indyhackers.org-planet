@@ -2,7 +2,6 @@
 feeds:
 - http://arktronic.com/rss.xml
 - http://blog.chrisvannoy.com/rss/
-- https://codatory.com/rss/
 - http://blog.funnelfiasco.com/?feed=rss2
 - http://blog.sephonic.us/rss
 - http://blog.theincredibleholk.org/atom.xml
@@ -31,6 +30,8 @@ feeds:
 - http://softwaresaltmines.com/feed/
 - http://todd.grotenhuis.info/atom.xml
 - http://verticalaligncenter.com/blog?format=rss
+- http://www.schmonz.com/rss/
+- https://codatory.com/rss/
 title: IndyHackers Planet
 about: Aggregating the IndyHackers Community
 root_url: http://indyhackers-planet.herokuapp.com/
