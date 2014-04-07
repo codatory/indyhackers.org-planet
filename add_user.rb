@@ -2,7 +2,7 @@
 
 require 'yaml'
 require 'feedbag'
-require 'feedzirra'
+require 'feedjira'
 
 CONFIG = YAML.load_file('config.yml')
 
@@ -15,7 +15,7 @@ feed = Feedbag.find(url).first
 puts "Found feed at #{feed}"
 puts "Attempting to read feed"
 
-latest = Feedzirra::Feed.fetch_and_parse(feed).entries.first
+latest = Feedjira::Feed.fetch_and_parse(feed).entries.first
 
 puts "Here's the latest post..."
 puts "Title:   #{latest.title}"

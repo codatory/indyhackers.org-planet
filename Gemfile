@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.1'
 
 gem 'sinatra'
 gem 'home_run'
-gem 'feedzirra'
+gem 'feedjira', "~> 0.9.0"
 gem 'builder'
 gem 'rabl'
 gem 'oj'
