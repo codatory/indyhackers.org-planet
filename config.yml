@@ -1,14 +1,15 @@
 ---
 feeds:
-- http://funnelfiasco.com/blog/feed/
 - http://composition.al/atom.xml
+- http://funnelfiasco.com/blog/feed/
+- http://soulcutter.com/feed.xml
 - http://www.courtnycotten.com/feed/
-- https://fuzzyblog.io/blog/feed.xml
-- https://jacob.jkrall.net/rss.xml
 - http://www.mileszs.com/feed.xml
-- https://mdswanson.com/atom.xml
 - https://blog.grotenhuis.info/feed.xml
 - https://dev.jimgrey.net/feed/
+- https://fuzzyblog.io/blog/feed.xml
+- https://jacob.jkrall.net/rss.xml
+- https://mdswanson.com/atom.xml
 - https://roadfiresoftware.com/feed/
 - https://trycatch.dev/rss.xml
 title: IndyHackers Planet
