@@ -48,7 +48,8 @@ class Feeds
     def self.to_a
       if @array_cache.nil? || stale?
         update
-        @array_cache = entries.sort_by(&:published).reverse
+        one_year_ago = Time.now - (365*24*60*60)
+        @array_cache = entries.sort_by(&:published).reject{|e| e.published < one_year_ago}.reverse
       end
       @array_cache
     end
