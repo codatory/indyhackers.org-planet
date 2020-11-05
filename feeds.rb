@@ -4,6 +4,7 @@ require 'feedjira'
 require 'yaml'
 
 CONFIG = YAML.load_file('config.yml')
+Typhoeus::Config.user_agent = "IndyHackers Planet"
 
 class Feeds
     include Singleton

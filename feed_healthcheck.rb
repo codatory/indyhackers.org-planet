@@ -7,6 +7,7 @@ CONFIG = YAML.load_file('config.yml')
 feeds = []
 one_year_ago = Time.now - (365*24*60*60)
 errors = {}
+Typhoeus::Config.user_agent = "IndyHackers Planet"
 hydra = Typhoeus::Hydra.new
 CONFIG['feeds'].each do |feed|
   request = Typhoeus::Request.new(feed, followlocation: true)
