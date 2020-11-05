@@ -15,7 +15,7 @@ feed = Feedbag.find(url).first
 puts "Found feed at #{feed}"
 puts "Attempting to read feed"
 
-latest = Feedjira::Feed.fetch_and_parse(feed).entries.first
+latest = Feedjira.parse(URI.open(feed).read).entries.first
 
 puts "Here's the latest post..."
 puts "Title:   #{latest.title}"
