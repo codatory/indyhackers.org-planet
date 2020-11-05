@@ -1,12 +1,12 @@
 ---
 feeds:
-- http://blog.funnelfiasco.com/?feed=rss2
+- http://funnelfiasco.com/blog/feed/
 - http://composition.al/atom.xml
-- http://courtnycotten.com/feed/
-- http://fuzzyblog.io/blog/feed
-- http://jacob.jkrall.net/rss.xml
-- http://mileszs.github.com/feed.xml
-- http://www.mdswanson.com/atom.xml
+- http://www.courtnycotten.com/feed/
+- https://fuzzyblog.io/blog/feed.xml
+- https://jacob.jkrall.net/rss.xml
+- http://www.mileszs.com/feed.xml
+- https://mdswanson.com/atom.xml
 - https://blog.grotenhuis.info/feed.xml
 - https://dev.jimgrey.net/feed/
 - https://roadfiresoftware.com/feed/
