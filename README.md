@@ -19,6 +19,7 @@ This will verify your feed works and add your domain to the config.yml file.
 
 - json: http://indyhackers-planet.herokuapp.com/posts.json
 - rss: http://indyhackers-planet.herokuapp.com/posts.rss
+- opml: http://indyhackers-planet.herokuapp.com/feeds.opml
 
 # I just posted something and it hasn't shown up
 

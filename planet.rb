@@ -45,3 +45,9 @@ get '/posts.json' do
   @posts = Feeds.to_a
   rabl :feed, :format => 'json', :content_type => 'application/json'
 end
+
+get '/feeds.opml' do
+  cache_control :public, :max_age => 3600
+  @feeds = Feeds.feed_meta
+  builder :opml
+end
