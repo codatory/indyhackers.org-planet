@@ -16,6 +16,7 @@ feeds:
 - https://oldchestnut.work/feed.xml
 - https://roadfiresoftware.com/feed/
 - https://trycatch.dev/rss.xml
+- https://www.macksmind.io/feed.xml
 title: IndyHackers Planet
 about: Aggregating the IndyHackers Community
 root_url: http://indyhackers-planet.herokuapp.com/
