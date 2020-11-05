@@ -1,37 +1,16 @@
 ---
 feeds:
-- http://arktronic.com/rss.xml
-- http://blog.chrisvannoy.com/rss/
 - http://blog.funnelfiasco.com/?feed=rss2
-- http://blog.sephonic.us/rss # remove, no longer updated
-- http://blog.theincredibleholk.org/atom.xml
 - http://composition.al/atom.xml
 - http://courtnycotten.com/feed/
-- http://davefancher.com/feed/
-- http://davydotcom.com/blog.rss # remove, no longer updated
-- http://dwradcliffe.com/atom.xml # remove, no longer updated
-- http://evanwalsh.net/atom.xml
-- http://feeds.feedburner.com/codebtbytescom # remove, no longer updated
-- http://feeds.feedburner.com/funkablog-atom
-- http://jacob.jkrall.net/rss.xml
-- http://joeldart.wordpress.com/feed/ # remove, no longer updated
-- http://jon-nolen.blogspot.com/feeds/posts/default # remove, no longer updated
-- http://larry-price.com/atom.xml
-- http://mafellows.com/rss
-- http://massive-robot.blogspot.com/feeds/posts/default # remove, no longer updated
-- http://mike-rogers.github.io/atom.xml
-- http://milamsoft.blogspot.com/feeds/posts/default
-- http://mileszs.com/atom.xml
-- http://myotherpants.com/category/worksafe/feed/ # remove, no longer updated
-- http://pickardayune.com/atom.xml # remove, no longer updated
-- http://roadfiresoftware.com/blog/feed/
-- http://softwaresaltmines.com/feed/
-- http://todd.grotenhuis.info/feed.xml
-- http://work.stevegrossi.com/feed.xml
-- http://www.mdswanson.com/atom.xml
-- http://www.schmonz.com/rss/ # remove, amitai no longer lives in Indiana
-- https://codatory.com/rss/
 - http://fuzzyblog.io/blog/feed
+- http://jacob.jkrall.net/rss.xml
+- http://mileszs.github.com/feed.xml
+- http://www.mdswanson.com/atom.xml
+- https://blog.grotenhuis.info/feed.xml
+- https://dev.jimgrey.net/feed/
+- https://roadfiresoftware.com/feed/
+- https://trycatch.dev/rss.xml
 title: IndyHackers Planet
 about: Aggregating the IndyHackers Community
 root_url: http://indyhackers-planet.herokuapp.com/
