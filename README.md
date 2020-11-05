@@ -1,4 +1,4 @@
-[![Build Status](https://drone.io/github.com/codatory/indyhackers.org-planet/status.png)](https://drone.io/github.com/codatory/indyhackers.org-planet/latest)
+[![Build Status](https://cloud.drone.io/api/badges/codatory/indyhackers.org-planet/status.svg)](https://cloud.drone.io/codatory/indyhackers.org-planet)
 
 # What is this?
 

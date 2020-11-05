@@ -20,7 +20,7 @@ feeds:
 - http://mafellows.com/rss
 - http://massive-robot.blogspot.com/feeds/posts/default # remove, no longer updated
 - http://mike-rogers.github.io/atom.xml
-- http://milamsoft.blogspot.com # remove, no longer updated
+- http://milamsoft.blogspot.com/feeds/posts/default
 - http://mileszs.com/atom.xml
 - http://myotherpants.com/category/worksafe/feed/ # remove, no longer updated
 - http://pickardayune.com/atom.xml # remove, no longer updated
@@ -28,7 +28,6 @@ feeds:
 - http://softwaresaltmines.com/feed/
 - http://todd.grotenhuis.info/feed.xml
 - http://work.stevegrossi.com/feed.xml
-- http://www.getfretless.com/feed/
 - http://www.mdswanson.com/atom.xml
 - http://www.schmonz.com/rss/ # remove, amitai no longer lives in Indiana
 - https://codatory.com/rss/
