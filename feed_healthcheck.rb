@@ -18,21 +18,17 @@ CONFIG['feeds'].each do |feed|
         latest = feed.entries.sort_by(&:published).last
         feeds << feed
         if !latest
-            puts "No posts found: #{feed}"
-            errors[feed] = :length
+            puts "No posts found: #{feed.url}"
         elsif latest.published < one_year_ago
-            puts "Not updated in over 1 year: #{feed}"
-            errors[feed] = :recent
+            puts "Not updated in over 1 year: #{feed.url}"
         end
       rescue Feedjira::NoParserAvailable
-        puts "Failed parsing feed: #{feed}"
-        errors[feed] = :parse
+        puts "Failed parsing feed: #{feed.url}"
       end
 
 
     else
         puts "Failed to load feed: #{feed}"
-        errors[feed] = :fetch
     end
   end
   hydra.queue(request)
