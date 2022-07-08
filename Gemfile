@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.2'
+ruby '2.7.6'
 
 gem 'sinatra'
 gem 'home_run'
