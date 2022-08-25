@@ -40,10 +40,8 @@ get '/posts.rss' do
   builder :feed
 end
 
-get '/posts.json' do
-  cache_control :public, :max_age => 3600
-  @posts = Feeds.to_a
-  rabl :feed, :format => 'json', :content_type => 'application/json'
+get '/posts.json', :provides => 'html' do
+  redirect 'https://github.com/codatory/indyhackers.org-planet'
 end
 
 get '/feeds.opml' do

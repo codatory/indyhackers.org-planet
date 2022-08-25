@@ -18,7 +18,6 @@ This will verify your feed works and add your feed URL to the config.yml file.
 
 # Where does it live?
 
-- json: http://indyhackers-planet.herokuapp.com/posts.json
 - rss: http://indyhackers-planet.herokuapp.com/posts.rss
 - opml: http://indyhackers-planet.herokuapp.com/feeds.opml
 
