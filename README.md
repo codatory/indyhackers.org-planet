@@ -1,3 +1,6 @@
+# WARNING
+[Heroku has announced sudden revocation of their free dynos](https://blog.heroku.com/next-chapter). If you're still using this service I recommend exporting the OPML feed and moving to native subscription before Salesforce finishes their rug-yanking.
+
 # What is this?
 
 This is a simple RSS Aggregator for the IndyHackers.org community. It collects feeds from all over the blogosphere and puts them in one simple to collect place.
