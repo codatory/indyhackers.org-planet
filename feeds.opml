@@ -5,22 +5,23 @@
     <docs>https://github.com/codatory/indyhackers.org-planet</docs>
   </head>
   <body>
-    <outline title="Creators Who Code" description="Learning how to code? Learn how to GET PAID" htmlUrl="https://creatorswhocode.com/" xmlUrl="https://creatorswhocode.com/feed.xml"/>
-    <outline title="Matt Swanson’s Blog" description="blog, talks, book writeups" htmlUrl="https://mdswanson.com/" xmlUrl="https://mdswanson.com/atom.xml"/>
-    <outline title="Old Chestnut Software" description="Seeds of software wisdom" htmlUrl="https://oldchestnut.work" xmlUrl="https://oldchestnut.work/feed.xml"/>
-    <outline title="Roadfire Software" description="" htmlUrl="https://roadfiresoftware.com" xmlUrl="https://roadfiresoftware.com/feed/"/>
     <outline title="mileszs" description="The blahg/ramblings of MilesZS" htmlUrl="http://mileszs.github.com/" xmlUrl="http://mileszs.github.com/feed.xml"/>
-    <outline title="Jim Grey" description="Delivering software through leading people well" htmlUrl="https://dev.jimgrey.net" xmlUrl="https://dev.jimgrey.net/feed/"/>
     <outline title="Lost In Permutation" description="Starting up..." htmlUrl="http://jacob.jkrall.net" xmlUrl="https://jacob.jkrall.net/rss.xml"/>
     <outline title="Aaron Milam" description="I am a father, a husband, and a software engineer. I love good food, quiet time with my family, and trying new things." htmlUrl="https://aaron.milam.io/" xmlUrl="https://aaron.milam.io/feed.xml"/>
-    <outline title="t27duck.com posts" description="Posts from my personal blog" htmlUrl="https://t27duck.com/" xmlUrl="https://t27duck.com/posts.xml"/>
+    <outline title="Old Chestnut Software" description="Seeds of software wisdom" htmlUrl="https://oldchestnut.work" xmlUrl="https://oldchestnut.work/feed.xml"/>
+    <outline title="Jim Grey" description="Delivering software through leading people well" htmlUrl="https://dev.jimgrey.net" xmlUrl="https://dev.jimgrey.net/feed/"/>
+    <outline title="Matt Swanson’s Blog" description="blog, talks, book writeups" htmlUrl="https://mdswanson.com/" xmlUrl="https://mdswanson.com/atom.xml"/>
     <outline title="Todd Grotenhuis" description="" htmlUrl="https://blog.grotenhuis.info/" xmlUrl="https://blog.grotenhuis.info/feed.xml"/>
-    <outline title="FuzzyBlog" description="Scott Johnson writing about the usual array of nerd stuff: AWS / Ansible / Ruby / Rails / Elixir / Misc / Hyde.&#10;" htmlUrl="https://fuzzyblog.io/blog/" xmlUrl="https://fuzzyblog.io/blog/feed.xml"/>
-    <outline title="trycatch.dev" description="Code, musings, and tea. Lots of tea." htmlUrl="https://trycatch.dev" xmlUrl="https://trycatch.dev/rss.xml"/>
-    <outline title="MacksMind.io" description="Learning / Teaching to Ship Better Code Faster" htmlUrl="https://www.macksmind.io/" xmlUrl="https://www.macksmind.io/feed.xml"/>
+    <outline title="Creators Who Code" description="Learning how to code? Learn how to GET PAID" htmlUrl="https://creatorswhocode.com/" xmlUrl="https://creatorswhocode.com/feed.xml"/>
+    <outline title="t27duck.com posts" description="Posts from my personal blog" htmlUrl="https://t27duck.com/" xmlUrl="https://t27duck.com/posts.xml"/>
     <outline title="Journal on Carlos Lemus" description="Recent content in Journal on Carlos Lemus" htmlUrl="/blog/" xmlUrl="https://carloslem.us/blog/index.xml"/>
-    <outline title="Blog Fiasco" description="The world's only(?) weather/sports/marketing/high-performance computing blog" htmlUrl="https://funnelfiasco.com/blog/" xmlUrl="http://funnelfiasco.com/blog/feed/"/>
+    <outline title="MacksMind.io" description="Learning / Teaching to Ship Better Code Faster" htmlUrl="https://www.macksmind.io/" xmlUrl="https://www.macksmind.io/feed.xml"/>
+    <outline title="Roadfire Software" description="" htmlUrl="https://roadfiresoftware.com" xmlUrl="https://roadfiresoftware.com/feed/"/>
+    <outline title="FuzzyBlog" description="Scott Johnson writing about the usual array of nerd stuff: AWS / Ansible / Ruby / Rails / Elixir / Misc / Hyde.&#10;" htmlUrl="https://fuzzyblog.io/blog/" xmlUrl="https://fuzzyblog.io/blog/feed.xml"/>
     <outline title="Posts on Home" description="Recent content in Posts on Home" htmlUrl="https://kennethwinner.com/posts/" xmlUrl="https://kennethwinner.com/posts/index.xml"/>
+    <outline title="Codatory's Musings" description="Thoughts, stories and ideas." htmlUrl="https://codatory.com/" xmlUrl="https://codatory.com/rss/"/>
+    <outline title="trycatch.dev" description="Code, musings, and tea. Lots of tea." htmlUrl="https://trycatch.dev" xmlUrl="https://trycatch.dev/rss.xml"/>
+    <outline title="Blog Fiasco" description="The world's only(?) weather/sports/marketing/high-performance computing blog" htmlUrl="https://funnelfiasco.com/blog/" xmlUrl="http://funnelfiasco.com/blog/feed/"/>
     <outline title="Soulcutter" description="Soulcutter's ramblings about Ruby, programming, and whatever else comes to mind." htmlUrl="http://www.soulcutter.com/" xmlUrl="http://www.soulcutter.com/feed.xml"/>
   </body>
 </opml>
