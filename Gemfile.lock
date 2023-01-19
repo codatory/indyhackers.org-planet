@@ -43,7 +43,7 @@ GEM
     rabl (0.16.0)
       activesupport (>= 2.3.14)
     racc (1.6.0)
-    rack (2.2.4)
+    rack (2.2.6.2)
     rack-cache (1.13.0)
       rack (>= 0.4)
     rack-protection (2.2.2)
